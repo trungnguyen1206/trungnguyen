@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>TOKYO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="navbar">
+            <a href="#home" class="navbar__logo">TOKYO</a>
+            <input type="checkbox" id="navbar__toggle">
+            <ul class="navbar__items">
+                <li><a href="#home">
+					home
+					<label for="navbar__toggle"></label></a>
+                </li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#blog">blog</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+            <label for="navbar__toggle" class="navbar__toggle">
+				<span></span>
+				<span></span>
+				<span></span>
+			</label>
+        </div>
+    </header>
+    <section class="home" id='home'>
+        ..
+        <div class="content">
+            <img src="trung.jpg" class="content__avatar">
+            <h1>Nguyễn Việt Trung</h1>
+            <span>I am <b>Trainee</b></span>
+        </div>
+    </section>
+    <section class="about" id='about'>
+        <div class="container">
+            <div class="about__item">
+                <h2>About Me</h2>
+                <span>
+                    I am 21 years old, currently a trainee at Sun Asterisk Front-end position. My favorite language is Javascript. My hobbies are basketball, gym, swimming. I have lived in Hanoi for 4 years.<span>
+				<div class="about__more">
+					<div class="follow">
+						<span>Follow me</span>
+                <a href="#" hover-name='Facebook'>Facebook</a>
+                <a href="#" hover-name='Twitter'>Twitter</a>
+                <a href="#" hover-name='Instagram'>Instagram</a>
+            </div>
+            <div class="Mail Me">
+                <span>EMail</span>
+                <a href="#" hover-name='trungnv62@wru.vn'>trungnv62@wru.vn</a>
+            </div>
+        </div>
+        </div>
+        <div class="about__item">
+            <h2>My Skills</h2>
+            <div class="skills">
+                <div class="skill">
+                    <span>HTML</span>
+                    <span>90%</span>
+                    <div class="progress-bg">
+                        <div class="progress-bar" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Design</span>
+                    <span>84%</span>
+                    <div class="progress-bg">
+                        <div class="progress-bar" style="width: 84%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Coding</span>
+                    <span>88%</span>
+                    <div class="progress-bg">
+                        <div class="progress-bar" style="width: 88%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="blog" id="blog">
+        <div class="container">
+            <h1>LATEST NEWS</h1>
+            <div class="row">
+                <div class="card">
+                    <img src="html.png">
+                    <div class="card__body">
+                        <span class="card__data">27/12</span>
+                        <h3>HTML
+                        </h3>
+                        <p>
+
+                            HTML is a markup language designed to create web pages with pieces of information presented on the World Wide Web. Together with CSS and JavaScript, HTML creates a technical trinity for the World Wide Web. HTML is defined as a simple application of SGML
+                            and is used in organizations that need complex publishing requirements. HTML has become an Internet standard by the World Organization
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="css.png">
+                    <div class="card__body">
+                        <span class="card__data">27/12</span>
+                        <h3>CSS
+                        </h3>
+                        <p>
+                            In information technology, cascading style sheets - translated from English as Cascading Style Sheets (CSS) - are used to describe the presentation of documents written in HTML and XHTML languages. In addition, cascading style languages ​​can also be
+                            used for XML, SVG, and XUL. The CSS specifications are maintained by the World Wide Web Consortium.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="javascript.jpg">
+                    <div class="card__body">
+                        <span class="card__data">27/12</span>
+                        <h3>JAVASCRIPT
+                        </h3>
+                        <p>
+                            JavaScript, according to the current version, is an interpreted programming language developed from prototype concepts. This language is widely used for websites as well as server side.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="container">
+            <h1>Contact</h1>
+            <div class="row">
+                <form class="contact__form">
+                    <input type="text" name="Name" placeholder="Name" class="form-control">
+                    <input type="text" name="Email" id="email" class="form-control" placeholder="Email">
+                    <textarea placeholder="Message" name="Message" class="form-control"></textarea>
+                    <button class="btn btn--submit">SEND</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>© 2018 TOKYO | All rights reservedd.</footer>
+</body>
+
+</html>

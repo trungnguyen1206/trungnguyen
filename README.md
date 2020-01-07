@@ -1,2 +1,1 @@
-# trungnguyenviet
 # ttrungnnguyen
